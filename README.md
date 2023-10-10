@@ -1,5 +1,5 @@
 # FormBuilderCheckboxesLimit
-Add min/max selected options process input check to InputfieldCheckboxes in the context of FormBuilder.
+Validate a max/min number of checkboxes selected to Checkboxes field in the context of FormBuilder.
 
 ![Screenshot 2023-10-10 at 16 25 16](https://github.com/elabx/FormBuilderCheckboxesLimit/assets/7674567/78286986-d309-48fc-b718-6d755df40f8f)
 
