@@ -8,5 +8,5 @@ Add min/max selected options process input check to InputfieldCheckboxes in the 
 
 1. Copy module to site/modules
 2. Install module.
-3. New configurations fields should appear at the end of the field configuration.
+3. New configurations fields should appear at the end of the Checkboxes field configuration.
 
