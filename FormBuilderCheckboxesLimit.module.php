@@ -7,7 +7,7 @@ class FormBuilderCheckboxesLimit extends WireData implements Module
         return array(
           'title' => 'FormBuilder Checkboxes Limit Validation',
           'summary' => 'Validate a max/min number of checkboxes selected in Checkboxes fields in the context of FormBuilder.',
-          'version' => 100,
+          'version' => 0.0.1,
           'autoload' => true
         );
     }
