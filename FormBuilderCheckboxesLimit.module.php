@@ -7,7 +7,7 @@ class FormBuilderCheckboxesLimit extends WireData implements Module
         return array(
           'title' => 'FormBuilder Checkboxes Limit Validation',
           'summary' => 'Validate a max/min number of checkboxes selected in Checkboxes fields in the context of FormBuilder.',
-          'version' => 0.0.1,
+          'version' => 0.0.2,
           'autoload' => true
         );
     }
@@ -20,7 +20,7 @@ class FormBuilderCheckboxesLimit extends WireData implements Module
     public function ready()
     {
         if ($this->wire()->page->process == 'ProcessFormBuilder') {
-            $this->addHookAfter('Inputfield::getConfigInputfields', function ($e) {
+            $this->addHookAfter('InputfieldCheckboxes::getConfigInputfields', function ($e) {
                 $inputfield = $e->object;
                 $inputfields = $e->return;
 
